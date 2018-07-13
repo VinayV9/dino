@@ -1,6 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: silver;
+}
 #game-shell{
     width: 80%;
     height: 80vh;
-    background-color: silver;
     margin: 0 auto;
+    background-color: white;
+}
+.dino-img{
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: -21px;
+    z-index: 2;
+}
+#game-ground{
+    position: relative;
+    z-index: 1;
+    top: 40%;
+}
+hr{
+    position: relative;
+    z-index: 3;
 }
