@@ -50,5 +50,4 @@ const checkCollision = () => {
     if((pos1.left > -40 && pos1.left < 160) && (pos2.top >= -80 && pos2.top < 130)){
         alert('you lose');
     }
-    // alert('you lose');
 }
