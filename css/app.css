@@ -12,19 +12,42 @@ body{
     background-color: white;
 }
 .dino-img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     /* border: 1px solid black; */
-    position: relative;
-    bottom: -21px;
-    z-index: 2;
+    position: absolute;
+    bottom: -18px;
+    left: 100px;
+    z-index: 1;
 }
 #game-ground{
     position: relative;
     z-index: 1;
-    top: 40%;
+    top: 50%;
+    width: 100%;
 }
 hr{
     position: relative;
     z-index: 3;
+    height: 2px;
+    background-color: black;
+}
+.obstacles{
+    height: 80px;
+    background: url('../images/obstacles.png') 0 0;
+    position: absolute;
+    z-index: 2;
+    background-repeat: no-repeat;
+    float: right;
+    bottom: 0px;
+    right: 0;
+}
+#obs1{
+   width:50px;
+}
+#obs2{
+   width: 100px;
+}
+#obs3{
+   width: 150px;
 }
